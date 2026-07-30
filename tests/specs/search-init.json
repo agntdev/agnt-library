@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Open global search interface for titles/descriptions/tags"
+              "text": "Send the words you want to find. I’ll search titles, descriptions, and tags."
             }
           }
         ],

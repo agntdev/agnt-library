@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Access user's bookmarked items"
+              "text": "No favorites yet — save an item while browsing to keep it here."
             }
           }
         ],

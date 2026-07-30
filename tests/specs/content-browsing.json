@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Browse opens the library with navigation",
+    "steps": [
+      {
+        "send": { "callback": "browse:root" },
+        "expect": [{ "method": "editMessageText", "payload": { "text": "Browse the library. Choose a section." } }]
+      }
+    ]
+  }
+]

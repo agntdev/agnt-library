@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Admin menu creation flow",
+    "steps": [
+      {
+        "send": { "callback": "admin:hub" },
+        "expect": [{ "method": "editMessageText", "payload": { "text": "Manage your private content library." } }]
+      },
+      {
+        "send": { "callback": "admin:menus" },
+        "expect": [{ "method": "editMessageText", "payload": { "text": "Organize menus and nested sections." } }]
+      },
+      {
+        "send": { "callback": "admin:addmenu:root" },
+        "expect": [{ "method": "editMessageText", "payload": { "text": "Send the new menu name." } }]
+      },
+      {
+        "send": { "text": "Courses" },
+        "expect": [{ "method": "sendMessage", "payload": { "text": "Menu created." } }]
+      }
+    ]
+  }
+]
