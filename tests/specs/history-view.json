@@ -5,9 +5,9 @@
       {
         "expect": [
           {
-            "method": "sendMessage",
+            "method": "editMessageText",
             "payload": {
-              "text": "Show user's recently accessed content"
+              "text": "Nothing viewed yet — browse the library to build your recent list."
             }
           }
         ],
